@@ -6,7 +6,7 @@
 
 #include "../test_precomp.hpp"
 
-#ifdef HAVE_INF_ENGINE
+#if defined HAVE_INF_ENGINE && INF_ENGINE_RELEASE < 2023010000
 
 #include <stdexcept>
 #include <mutex>
